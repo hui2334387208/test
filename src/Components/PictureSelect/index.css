@@ -1,0 +1,25 @@
+.top {
+    padding-left: 40px;
+}
+.list {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.list li {
+    position: relative;
+}
+.list li input {
+    position: absolute;
+}
+.toast {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
